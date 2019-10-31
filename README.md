@@ -11,6 +11,6 @@ What is done?
 
 Theme Setup:
 1. Install and activate the theme.
-⋅⋅* Upon activating, theme will automatically create and set its header menu, homepage and footer widgets.
+   Upon activating, theme will automatically create and set its header menu, homepage and footer widgets.
 2. Import "1-media.xml" (Admin Dahsboard > Tools > Import > WordPress)
 3. Import "1-posts.xml" (Admin Dahsboard > Tools > Import > WordPress)
