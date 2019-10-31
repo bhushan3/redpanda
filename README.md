@@ -12,5 +12,5 @@ What is done?
 Theme Setup:
 1. Install and activate the theme.
    Upon activation, theme will automatically create and set its header menu, homepage and footer widgets.
-2. Import "[1-media.xml](https://raw.githubusercontent.com/bhushan3/redpanda/master/1-media.xml)" (Admin Dahsboard > Tools > Import > WordPress)
-3. Import "[2-posts.xml](https://raw.githubusercontent.com/bhushan3/redpanda/master/2-posts.xml)" (Admin Dahsboard > Tools > Import > WordPress)
+2. Import "[1-media.xml](https://raw.githubusercontent.com/bhushan3/redpanda/master/demo_data/1-media.xml)" (Admin Dahsboard > Tools > Import > WordPress)
+3. Import "[2-posts.xml](https://raw.githubusercontent.com/bhushan3/redpanda/master/demo_data/2-posts.xml)" (Admin Dahsboard > Tools > Import > WordPress)
