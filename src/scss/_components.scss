@@ -1124,6 +1124,9 @@
 	}
 	&__logo {
 		padding: baseline(0.5 0);
+		&-link {
+			display: inline-block;
+		}
 		&-img {
 			width: auto;
 			height: baseline(3);
