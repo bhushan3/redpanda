@@ -6,7 +6,7 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11" />
 		<?php wp_head(); ?>
 	</head>
-	<body <?php body_class( WP_DEBUG ? 'development' : ''); ?>>
+	<body <?php body_class(); ?>>
 		<?php wp_body_open(); ?>
 		<div class='overlay'></div>
 		<div class='page-wrapper'>

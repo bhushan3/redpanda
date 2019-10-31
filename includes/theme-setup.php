@@ -259,10 +259,13 @@ add_action( 'after_switch_theme', 'redpanda_after_switch_theme' );
 /**
  * Add conditional CSS clasess to body tag.
  */
-// function redpanda_body_classes( $classes ) {
-// return $classes;
-// }
-// add_filter( 'body_class','redpanda_body_classes' );
+function redpanda_body_classes( $classes ) {
+	if ( WP_DEBUG ) {
+		$classes[] = 'development';
+	}
+	return $classes;
+}
+add_filter( 'body_class','redpanda_body_classes' );
 
 /**
  * Filter the excerpt length to 30 characters.
