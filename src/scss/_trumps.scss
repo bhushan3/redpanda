@@ -1,0 +1,104 @@
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+.fancy-underline {
+	display: inline-block;
+	position: relative;
+	&::after {
+		content: '';
+		display: block;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		max-width: (100% / 1.5);
+		height: 7px;
+		background-image: url(assets/img/dash.png);
+		background-repeat: no-repeat;
+		background-position: left bottom;
+		background-size: contain;
+	}
+}
+.baseline {
+	&::before {
+		content: '';
+		display: block;
+		position: absolute;
+		z-index: 99999;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: auto;
+		height: inherit;
+		background-position: left top;
+		background-size: 100% baseline(1);
+		pointer-events: none;
+	}
+	&--full::before {
+		background-image: linear-gradient(
+			transparent calc(100% - 1px),
+			rgba(255, 0, 255, 0.5) calc(100% - 1px)
+		);
+	}
+	&--half::before {
+		background-image: linear-gradient(
+			transparent calc(50% - 1px),
+			rgba(255, 0, 255, 0.5) calc(50% - 1px),
+			rgba(255, 0, 255, 0.5) 50%, transparent 50%,
+			transparent calc(100% - 1px),
+			rgba(255, 0, 255, 0.5) calc(100% - 1px)
+		);
+	}
+}
+.devbar {
+	position: fixed;
+	z-index: 9999999;
+	right: 0;
+	bottom: 0;
+	font-size: 12px;
+	line-height: 2;
+	&__option {
+		display: inline-block;
+		margin-right: 3px;
+		padding: 0 12px;
+		background-color: #212121;
+		color: #FFFFFF;
+		font-weight: 500;
+		text-transform: capitalize;
+		cursor: pointer;
+	}
+}
+.debug * {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+.debug * * {
+	background-color: rgba(0, 255, 0, 0.2);
+}
+.debug * * * {
+	background-color: rgba(0, 0, 255, 0.2);
+}
+.debug * * * * {
+	background-color: rgba(255, 0, 255, 0.2);
+}
+.debug * * * * * {
+	background-color: rgba(0, 255, 255, 0.2);
+}
+.debug * * * * * * {
+	background-color: rgba(255, 255, 0, 0.2);
+}
+.debug * * * * * * * {
+	background-color: rgba(255, 0, 0, 0.2);
+}
+.debug * * * * * * * * {
+	background-color: rgba(0, 255, 0, 0.2);
+}
+.debug * * * * * * * * * {
+	background-color: rgba(0, 0, 255, 0.2);
+}

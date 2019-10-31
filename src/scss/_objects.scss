@@ -1,0 +1,70 @@
+// Animations, Transitions
+//------------------------------------------------------------------------------
+
+// Drawer
+//------------------------------------------------------------------------------
+
+// Icons
+//------------------------------------------------------------------------------
+
+// Icons
+//------------------------------------------------------------------------------
+@font-face {
+	font-family: 'Material Icons';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Material Icons'), local('MaterialIcons-Regular'), url(assets/fonts/material-icons/MaterialIcons-Regular.woff2) format('woff2'), url(assets/fonts/material-icons/MaterialIcons-Regular.woff) format('woff'), url(assets/fonts/material-icons/MaterialIcons-Regular.ttf) format('truetype');
+}
+.material-icons {
+	// sass-lint:disable-block no-vendor-prefixes
+	display: inline-block;
+	font-family: 'Material Icons';
+	font-size: inherit;
+	font-style: normal;
+	font-weight: normal; // stylelint-disable-line font-weight-notation
+	letter-spacing: normal;
+	line-height: inherit;
+	text-rendering: optimizeLegibility; // Support for Safari and Chrome
+	text-transform: none;
+	word-wrap: normal;
+	vertical-align: top;
+	white-space: nowrap;
+	direction: ltr;
+	-webkit-font-smoothing: antialiased; // Support for all WebKit browsers
+	-moz-osx-font-smoothing: grayscale; // Support for Firefox
+	font-feature-settings: 'liga'; // Support for IE
+}
+
+// List Bare
+//------------------------------------------------------------------------------
+
+// AJAX Preloader
+//------------------------------------------------------------------------------
+
+// Media
+//------------------------------------------------------------------------------
+
+// Layout
+//------------------------------------------------------------------------------
+
+// Overlays
+//------------------------------------------------------------------------------
+
+// Wrappers
+//------------------------------------------------------------------------------
+// .page-wrapper {}
+.content-wrapper {
+	width: 100%;
+	max-width: 1224px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: baseline(1);
+	padding-left: baseline(1);
+	&--full {
+		max-width: none;
+	}
+	&--no-padding {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}

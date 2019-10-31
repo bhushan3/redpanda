@@ -1,0 +1,32 @@
+/**
+ * Theme Name: Red Panda
+ * Author: Bhushan Patil
+ * Requires at least: WordPress 5.2.4
+ * Version: 0.1
+ * License: UNLICENSED
+ * Text Domain: redpanda
+ */
+
+// Globally-available SASS variables
+@import 'variables';
+
+// Globally-available SASS functions
+@import 'functions';
+
+// Globally-available SASS mixins
+@import 'mixins';
+
+// Ground zero styles
+@import 'generics';
+
+// Unclassed basic HTML elements
+@import 'elements';
+
+// Design-free objects, abstractions
+@import 'objects';
+
+// Components and widgets
+@import 'components';
+
+// Overrides, helpers, utilities
+@import 'trumps';

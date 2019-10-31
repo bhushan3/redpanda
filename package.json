@@ -1,0 +1,41 @@
+{
+	"name": "redpanda",
+	"description": "A Motorcycle Tours Company.",
+	"version": "0.1.0",
+	"author": "Bhushan Patil",
+	"license": "UNLICENSED",
+	"browserslist": [
+		">= 1%",
+		"last 1 major version",
+		"not dead",
+		"Chrome >= 45",
+		"Firefox >= 38",
+		"Edge >= 12",
+		"Explorer >= 10",
+		"iOS >= 9",
+		"Safari >= 9",
+		"Android >= 4.4",
+		"Opera >= 30"
+	],
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.6.4",
+		"@babel/preset-env": "^7.6.3",
+		"autoprefixer": "^9.7.0",
+		"browser-sync": "^2.26.7",
+		"gulp": "^4.0.2",
+		"gulp-babel": "^8.0.0",
+		"gulp-clean": "^0.4.0",
+		"gulp-concat": "^2.6.1",
+		"gulp-postcss": "^8.0.0",
+		"gulp-sass": "^4.0.2",
+		"gulp-zip": "^5.0.1"
+	}
+}
